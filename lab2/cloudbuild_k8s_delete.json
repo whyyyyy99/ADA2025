@@ -1,0 +1,18 @@
+{
+  "steps": [
+     {
+      "name": "gcr.io/google.com/cloudsdktool/cloud-sdk",
+      "entrypoint": "gcloud",
+      "args": [
+        "container",
+        "clusters",
+		"delete",
+		"cluster-1"
+      ],
+      "id": "cluster-delete"
+    }
+  ],
+  "options": {
+  "logging": "CLOUD_LOGGING_ONLY"
+  }
+}
