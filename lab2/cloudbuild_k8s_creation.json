@@ -6,9 +6,9 @@
       "args": [
         "container",
         "clusters",
-		"create",
-		"cluster-1",
-		"--project",
+	"create",
+	"cluster-1",
+	"--project",
         "$PROJECT_ID",
         "--region",
         "us-central1",

@@ -7,7 +7,10 @@
         "container",
         "clusters",
 		"delete",
-		"cluster-1"
+		"cluster-1",
+		"--region",
+		"us-central1",
+        "--quiet"		
       ],
       "id": "cluster-delete"
     }
