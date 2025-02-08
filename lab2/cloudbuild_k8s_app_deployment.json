@@ -9,7 +9,7 @@
       ],
 	  "env": [
         "CLOUDSDK_COMPUTE_REGION=us-central1",
-        "CLOUDSDK_CONTAINER_CLUSTER=cluster-1"
+        "CLOUDSDK_CONTAINER_CLUSTER=$_CLUSTER_NAME"
       ]
     }
   ],
