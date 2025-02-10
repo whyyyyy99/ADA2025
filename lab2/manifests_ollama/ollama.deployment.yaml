@@ -12,6 +12,8 @@ spec:
       labels:
         name: ollama
     spec:
+      nodeSelector:
+        target: "llm_api"
       containers:
       - name: ollama
         image: ollama/ollama:latest
